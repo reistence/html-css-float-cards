@@ -22,7 +22,7 @@ html {
 }
 
 main {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -43,8 +43,17 @@ h1 {
   /* border: 1px solid black; */
 }
 
-/* CARDS TEXT */
+.card {
+  background-color: #0f0e17;
+  width: calc(100% / 3 - 1em);
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+/* CARDS TEXT */
 .card-text {
   float: left;
   padding-left: 0.5em;
@@ -53,26 +62,16 @@ h1 {
   color: white;
   padding-left: 0.5em;
   padding-top: 0.5em;
+  padding-bottom: 0.3em;
 }
 .role {
   color: white;
-
   padding-left: 0.5em;
+  padding-bottom: 0.3em;
 }
 .mail {
   color: #45bddf;
-
   padding-left: 0.5em;
-}
-.card {
-  background-color: #0f0e17;
-  border: 1px solid white;
-  width: calc(100% / 3 - 1em);
-  float: left;
-  margin-right: 1.5em;
-  margin-bottom: 2em;
-  margin-top: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:nth-child(3),
