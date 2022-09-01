@@ -68,12 +68,16 @@ h1 {
   background-color: #0f0e17;
   border: 1px solid white;
   width: calc(100% / 3 - 1em);
-
   float: left;
-  margin-right: 1em;
+  margin-right: 1.5em;
   margin-bottom: 2em;
   margin-top: 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:nth-child(3),
+.card:nth-child(6) {
+  margin-right: 0;
 }
 
 /* CARD IMG */
