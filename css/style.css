@@ -56,22 +56,19 @@ h1 {
 /* CARDS TEXT */
 .card-text {
   float: left;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 .name {
   color: white;
-  padding-left: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 0.3em;
 }
 .role {
   color: white;
-  padding-left: 0.5em;
   padding-bottom: 0.3em;
 }
 .mail {
   color: #45bddf;
-  padding-left: 0.5em;
 }
 
 .card:nth-child(3),
